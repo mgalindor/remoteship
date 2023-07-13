@@ -1,0 +1,11 @@
+proto < ../src/main/proto/book.proto
+
+GRPC localhost:6565/BookService/createBooks
+{
+  "ISBN": "978-0132350884",
+  "title": "Clean Code",
+  "author":"Robert C. Matin",
+  "page":"9999",
+  "keyword" : ["code"],
+  "bookType" : "BOOK"
+}
